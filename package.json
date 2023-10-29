@@ -1,0 +1,19 @@
+{
+  "name": "extension-chrome",
+  "version": "0.0.1",
+  "description": "Changez la police d'écriture d'une page afin qu'elle soit plus lisible pour les dyslexiques. ",
+  "main": "dys.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jonathanbensadoun/extension-chrome.git"
+  },
+  "author": "jonathan bensadoun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathanbensadoun/extension-chrome/issues"
+  },
+  "homepage": "https://github.com/jonathanbensadoun/extension-chrome#readme"
+}

@@ -1,11 +1,20 @@
 <!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p>app change police</p>
-</body>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="extension-style.css">
+  </head>
+  <body>
+    <h2>Choisir sa police</h2>
+    <label>Mettre en gras : <input type="checkbox" id="boldText"></label>
+    <select id="fontSelector">
+      <option value="Helvetica, sans-serif">Helvetica</option>
+      <option value="Arial, sans-serif">Arial</option>
+      <option value="Comic Sans MS">Comic Sans MS</option>
+      <option value="Verdana">Verdana</option>
+      <!-- Ajoutez d'autres options de police au besoin -->
+    </select>
+    <button id="applyFont">Appliquer</button>
+
+    <script src="popup.js"></script>
+  </body>
 </html>

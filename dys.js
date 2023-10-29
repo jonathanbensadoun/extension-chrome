@@ -1,1 +1,5 @@
-document.body.style.fontFamily = "helvetica, sans-serif";
+chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
+    if (request.selectedFont) {
+      document.body.style.fontFamily = request.selectedFont;
+    }
+  });

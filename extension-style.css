@@ -1,0 +1,19 @@
+body {
+    width: 12rem;
+    background-color: white;
+    
+  }
+  
+  button {
+
+    background-color: lightgrey;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 5px ;
+  }
+  .bold {
+    font-weight: bold;
+  }
